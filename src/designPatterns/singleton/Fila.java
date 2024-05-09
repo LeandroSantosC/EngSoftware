@@ -24,7 +24,7 @@ public class Fila {
         private Fila(){
         }
 
-        public static Filaprint getInstance(){
+        public static Fila getInstance(){
             if(instancia == null){
                 instancia = new Fila();
             }
